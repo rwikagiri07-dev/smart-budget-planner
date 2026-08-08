@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import ProtectedRoute from "./ProtectRoute";
 
 import Login from "../pages/Login/Login";
-import Signup from "../pages/Signup/Signup";
+import Signup from "../pages/SignUp/SignUp";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import BudgetPlanner from "../pages/BudgetPlanner/BudgetPlanner";
 import Expenses from "../pages/Expenses/Expenses";

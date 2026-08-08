@@ -102,7 +102,7 @@ Ensure you have the following installed:
  🧬 Clone the repository:
    ```bash
    git clone https://github.com/rwikagiri07-dev/smart-budget-planner.git
-   cd doneit
+   cd smart-budget-planner
    ```
 
 🔧 Run the Backend

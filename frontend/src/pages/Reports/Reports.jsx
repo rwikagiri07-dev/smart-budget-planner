@@ -18,7 +18,7 @@ import { FaWallet, FaMoneyBillWave, FaPiggyBank } from "react-icons/fa";
 
 import toast from "react-hot-toast";
 
-import DashboardLayout from "../../layouts/DashBoardLayout";
+import DashboardLayout from "../../layouts/DashboardLayout";
 import api from "../../services/api";
 
 ChartJS.register(

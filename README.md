@@ -12,23 +12,13 @@
 ## 🛠️ Tools Used
 
 | Tool | Description |
-|---|---|
-| **MongoDB** | NoSQL database for storing users, budgets, expenses, and events |
-| **Express.js** | Backend REST API framework |
-| **React** | Frontend UI library |
-| **Node.js** | Server-side JavaScript runtime |
-| **Vite** | Fast frontend build tool |
-| **Axios** | HTTP client for API communication |
-| **Chart.js** | Financial reports and data visualization |
-| **React Router** | Frontend routing |
-| **JWT** | Authentication and authorization |
-| **bcrypt** | Password hashing |
-| **CSS** | Responsive user interface styling |
-| **Postman** | API testing |
-| **VS Code** | Code editor |
-| **Vercel** | Frontend deployment |
-| **Render** | Backend deployment |
-| **MongoDB Atlas** | Cloud database hosting |
+|------|-------------|
+| ![MongoDB](https://img.icons8.com/color/24/mongodb.png) **MongoDB** | NoSQL Database for storing Products |
+| ![Express](https://img.icons8.com/ios/24/express-js.png) **Express.js** | Backend API framework |
+| ![React](https://img.icons8.com/color/24/react-native.png) **React** | Frontend UI library |
+| ![Node.js](https://img.icons8.com/color/24/nodejs.png) **Node.js** | Server-side JavaScript runtime |
+| ![TailwindCSS](https://img.icons8.com/color/24/tailwindcss.png) **TailwindCSS** | Modern, responsive UI styling |
+| ![VSCode](https://img.icons8.com/color/24/visual-studio-code-2019.png) **VS Code** | Code editor |
 
 ---
 

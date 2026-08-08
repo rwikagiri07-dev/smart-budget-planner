@@ -101,7 +101,7 @@ Ensure you have the following installed:
 
  🧬 Clone the repository:
    ```bash
-   git clone https://github.com/Kundan696922/doneit.git
+   git clone https://github.com/rwikagiri07-dev/smart-budget-planner.git
    cd doneit
    ```
 

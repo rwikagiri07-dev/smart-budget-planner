@@ -6,7 +6,7 @@
 
 ## 🚀 Demo
 
-> 🌐 Live Demo: 👉 [View Smart Budget Planner](YOUR_VERCEL_URL)
+> 🌐 Live Demo: 👉 [View Smart Budget Planner](https://smart-budget-planner-murex.vercel.app/)
 ---
 
 ## 🛠️ Tools Used
@@ -43,34 +43,6 @@
 
 ---
 
-## 🖼️ Overview
-
-### Dashboard
-
-Add your dashboard screenshot here.
-
-### Budget Planner
-
-Add your budget planner screenshot here.
-
-### Expenses
-
-Add your expenses screenshot here.
-
-### Events
-
-Add your events screenshot here.
-
-### Reports
-
-Add your reports screenshot here.
-
-### Settings
-
-Add your settings screenshot here.
-
----
-
 ## 🚀 Getting Started
 
 ### 🔐 Environment Variables Setup
@@ -84,11 +56,16 @@ Add your settings screenshot here.
    JWT_SECRET=your_access_token_secret
    JWT_EXPIRE=7d
 
-   NODE_ENV=development
-   REACT_APP_API_URL=your_react_app_api_url
+   CLIENT_URL=your_react_app_api_url
+
+2. Create a `.env` file in the **frontend** folder:
+
+   ```env
    
-3. Add .env to .gitignore to keep it private.
-4. Restart your dev server after setting these variables.
+     VITE_API_URL=your_vite_api_url
+   
+4. Add .env to .gitignore to keep it private.
+5. Restart your dev server after setting these variables.
 
 ### Prerequisites
 

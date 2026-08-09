@@ -17,11 +17,27 @@ function ProtectedRoute({ children }) {
           width: "100%",
           textAlign: "center",
           padding: "0 20px",
-          gap: "8px",
+          gap: "10px",
         }}
       >
-        <h2 style={{ margin: 0 }}>Smart Budget Planner</h2>
-        <p style={{ margin: 0, color: "#666" }}>Please wait, it's loading...</p>
+        <h2
+          style={{
+            margin: 0,
+            fontSize: "clamp(1.5rem, 5vw, 2.5rem)",
+            fontWeight: 700,
+          }}
+        >
+          Smart Budget Planner
+        </h2>
+        <p
+          style={{
+            margin: 0,
+            fontSize: "clamp(0.9rem, 2.5vw, 1.1rem)",
+            color: "#666",
+          }}
+        >
+          Please wait, it's loading...
+        </p>
       </div>
     );
   }

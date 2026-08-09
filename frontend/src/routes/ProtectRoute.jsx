@@ -10,13 +10,18 @@ function ProtectedRoute({ children }) {
       <div
         style={{
           display: "flex",
+          flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
           height: "100vh",
           width: "100%",
+          textAlign: "center",
+          padding: "0 20px",
+          gap: "8px",
         }}
       >
-        <h2>Loading...</h2>
+        <h2 style={{ margin: 0 }}>Smart Budget Planner</h2>
+        <p style={{ margin: 0, color: "#666" }}>Please wait, it's loading...</p>
       </div>
     );
   }

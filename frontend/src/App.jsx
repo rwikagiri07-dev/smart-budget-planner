@@ -1,5 +1,5 @@
 import AppRoutes from "./routes/AppRoutes";
-import AskAI from "./components/AskAI/AskAI";
+import AskAI from "./components/askai/AskAI";
 
 function App() {
   return (

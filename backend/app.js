@@ -9,6 +9,7 @@ import budgetRoutes from "./routes/budgetRoutes.js";
 import expenseRoutes from "./routes/expenseRoutes.js";
 import eventRoutes from "./routes/eventRoutes.js";
 import reportRoutes from "./routes/reportRoutes.js";
+import aiRoutes from "./routes/aiRoutes.js";
 
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 
@@ -40,6 +41,7 @@ app.use("/api/budgets", budgetRoutes);
 app.use("/api/expenses", expenseRoutes);
 app.use("/api/events", eventRoutes);
 app.use("/api/reports", reportRoutes);
+app.use("/api/ai", aiRoutes);
 
 // Error Middleware
 app.use(notFound);

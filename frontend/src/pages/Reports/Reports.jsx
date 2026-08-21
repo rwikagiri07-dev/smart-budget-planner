@@ -328,7 +328,7 @@ function Reports() {
                   </div>
                 </div>
               ) : (
-                <div className="chart-empty">No category data available.</div>
+                <div className="chart-empty p-10">No category data available.</div>
               )}
             </div>
 

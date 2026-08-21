@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import Sidebar from "../components/layout/Sidebar";
 import Navbar from "../components/layout/Navbar";
+// import AskAI from "../components/AskAI/AskAI";
 
 function DashboardLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -27,6 +28,7 @@ function DashboardLayout({ children }) {
 
         <div className="content">{children}</div>
       </div>
+      {/* <AskAI /> */}
     </div>
   );
 }
